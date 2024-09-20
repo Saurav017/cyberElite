@@ -69,4 +69,11 @@
       margin: 1.5rem 0;
     }
   }
+
+  @media (max-width: 500px) {
+    .navbar {
+        padding: 1rem;
+        
+      }
+    }
   

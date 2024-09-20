@@ -8,5 +8,10 @@
 }
 
 .heading {
-    color: orange ;
+    color: #ff7d00 ;
+}
+@media  (max-width: 500px) {
+    .heading {
+        text-align: center;
+    }
 }

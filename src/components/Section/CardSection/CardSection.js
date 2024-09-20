@@ -3,6 +3,7 @@ import Card from '../../UI/Card/Card'
 import styles from './CardSection.module.css'
 
 import { FaMagnifyingGlass } from "react-icons/fa6";
+import SectionHeading from '../../UI/SectionHeading/SectionHeading';
 
 const leadStrategies = [
   {
@@ -38,7 +39,8 @@ const leadStrategies = [
 ];
 const CardSection = () => {
   return (
-    <main>
+    <main className={styles.strategyDiv}>
+    <SectionHeading />
       <div className={styles.strategyContainer}>
       {
         leadStrategies.map((data, index) => (

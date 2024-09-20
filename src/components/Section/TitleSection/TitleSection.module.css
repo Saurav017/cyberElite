@@ -35,7 +35,7 @@
     border: none;
     padding: 10px 25px;
     font-size: 1.2rem;
-    background-color: orange;
+    background-color: #ff7d00;
     color: white;
     font-weight: 500;
     border-radius: 17px;
@@ -61,6 +61,16 @@
     .titleContainer {
         display: grid;
         grid-template-columns: 1fr;
+        margin-top: 30px;
+
+        margin-bottom: 30px;
+    }
+
+    .titleHeading {
+        font-size: 2.5rem;
+    }
+
+    .imageDiv {
         margin-top: 30px;
     }
 }

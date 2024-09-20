@@ -8,16 +8,12 @@
     /* grid-template-columns: 1fr 1fr 1fr; */
 }
 
-/* @media screen and (max-width: 1080px) {
-    .strategyContainer {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-} */
+
 @media screen and (max-width: 600px) {
     .strategyContainer {
-
+        width: 90%;
         display: flex;
+        flex-wrap: nowrap;
         flex-direction: column;
         justify-content: center;
         align-items: center;

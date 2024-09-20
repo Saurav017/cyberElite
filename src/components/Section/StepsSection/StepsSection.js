@@ -1,5 +1,8 @@
 import React from 'react';
 import styles from './StepsSection.module.css'
+import { FaLightbulb } from "react-icons/fa6";
+import { RiPlantFill } from "react-icons/ri";
+import { SiConvertio } from "react-icons/si";
 
 const MarketingAutomation = () => {
   return (
@@ -9,7 +12,7 @@ const MarketingAutomation = () => {
         <div className={styles.step}>
         <div  className={styles.iconWrapperContainer}>
         <div className={styles.iconWrapper}>
-            <img src="/icons/capture-icon.svg" alt="Capture" className={styles.icon} />
+            <span className={styles.icon}> <FaLightbulb /></span>
           </div>
         </div>
           
@@ -18,14 +21,14 @@ const MarketingAutomation = () => {
 
         <div className={styles.step}>
           <div className={styles.iconWrapper}>
-            <img src="/icons/nurture-icon.svg" alt="Nurture" className={styles.icon} />
+            <span className={styles.icon}><RiPlantFill /> </span>
           </div>
           <h3 className={styles.stepTitle}>NURTURE</h3>
         </div>
 
         <div className={styles.step}>
           <div className={styles.iconWrapper}>
-            <img src="/icons/convert-icon.svg" alt="Convert" className={styles.icon} />
+            <span className={styles.icon} > <SiConvertio /></span>
           </div>
           <h3 className={styles.stepTitle}>CONVERT</h3>
         </div>

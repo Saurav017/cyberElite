@@ -1,9 +1,9 @@
 import React from 'react'
 import styles from './Card.module.css'
 
-const Card = ({imgDiv, title, description}) => {
+const Card = ({imgDiv, title, description, isFirst}) => {
   return (
-    <div className={styles.card_container}>
+    <div className={isFirst ? `${styles.card_container} ${styles.isFirst} ` : styles.card_container}>
       <div className={styles.img_div}>{imgDiv}</div>
         <div className={styles.content_div}>
             <h2 className={styles.content_heading}>{title}</h2>
