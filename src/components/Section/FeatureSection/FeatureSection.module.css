@@ -1,0 +1,14 @@
+.featureContainer {
+    width: 80%;
+    margin : 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 900px) {
+    .featureContainer {
+        width: 90%;
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,66 @@
+.titleContainer {
+    width: 85%;
+    margin:  100px auto;
+    /* height: 80vh; */
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-gap: 20px;
+    
+}
+
+.contentDiv {
+    display: flex;
+    margin-top: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-right: 20px;
+}
+
+.titleHeading {
+    color: #000;
+    font-size: 3.8rem;
+    margin: 0;
+    padding: 0;
+}
+
+.titleDesc {
+    font-size: 1rem;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+.titleBtn {
+    font-family: "Montserrat", sans-serif;
+    border: none;
+    padding: 10px 25px;
+    font-size: 1.2rem;
+    background-color: orange;
+    color: white;
+    font-weight: 500;
+    border-radius: 17px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+.imageDiv {
+    width: 100%;
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.titleImg {
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 900px) {
+    .titleContainer {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 30px;
+    }
+}

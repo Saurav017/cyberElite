@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import CardSection from './components/Section/CardSection/CardSection'
+import SectionHeading from './components/UI/SectionHeading/SectionHeading'
+import FeatureSection from './components/Section/FeatureSection/FeatureSection'
+import ImpactSection from './components/Section/ImpactSection/ImpactSection'
+import TitleSection from './components/Section/TitleSection/TitleSection'
+import FooterSection from './components/Section/FooterSection/FooterSection'
+import TestimonialSection from './components/Section/TestimonialSection/TestimonialSection'
+import Navbar from './components/Section/NavbarSection/NavbarSection'
+import MarketingAutomation from './components/Section/StepsSection/StepsSection'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <main className='main_container'>
+    <Navbar />
+      <TitleSection />
+      <MarketingAutomation />
+      <SectionHeading />
+      <CardSection />
+      <SectionHeading />
+      <FeatureSection />
+      <ImpactSection />
+      <TestimonialSection />
+      <FooterSection />
+    </main>
+  )
 }
 
-export default App;
+export default App

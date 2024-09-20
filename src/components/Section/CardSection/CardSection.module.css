@@ -1,0 +1,25 @@
+.strategyContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+}
+
+/* @media screen and (max-width: 1080px) {
+    .strategyContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+} */
+@media screen and (max-width: 600px) {
+    .strategyContainer {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

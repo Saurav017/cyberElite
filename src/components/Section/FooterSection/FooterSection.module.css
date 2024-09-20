@@ -1,0 +1,119 @@
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 0;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+  }
+   
+  .container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+   
+  .about {
+    flex: 1.5;
+    padding-right: 20px;
+  }
+   
+  .about h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+   
+  .about p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 10px;
+  }
+   
+  .contact,
+  .services,
+  .industries,
+  .resources {
+    flex: 1;
+  }
+   
+  h4 {
+    color: orange;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+   
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+   
+  li {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 5px;
+  }
+   
+  p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 5px;
+  }
+   
+  /* Media Query for Tablets (768px and below) */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      text-align: center;
+    }
+   
+    .about,
+    .contact,
+    .services,
+    .industries,
+    .resources {
+      padding: 15px 0;
+    }
+   
+    .about h3 {
+      font-size: 20px;
+    }
+   
+    h4 {
+      font-size: 16px;
+    }
+   
+    p,
+    li {
+      font-size: 14px;
+    }
+  }
+   
+  /* Media Query for Mobile Devices (480px and below) */
+  @media (max-width: 480px) {
+    .container {
+      padding: 0 10px;
+    }
+   
+    .about h3 {
+      font-size: 18px;
+    }
+   
+    .about p {
+      font-size: 14px;
+    }
+   
+    h4 {
+      font-size: 15px;
+    }
+   
+    p,
+    li {
+      font-size: 12px;
+    }
+   
+    .about {
+      padding-right: 0;
+    }
+  }
+  

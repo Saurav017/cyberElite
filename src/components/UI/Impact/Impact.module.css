@@ -1,0 +1,25 @@
+.impactDiv {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.icon {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.heading {
+    margin: 0;
+    font-size: 3rem;
+    color: orange;
+}
+
+.description {
+    margin: 0;
+    text-align: center;
+}
